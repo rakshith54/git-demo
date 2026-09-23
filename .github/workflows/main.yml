@@ -10,7 +10,7 @@ jobs:
     runs-on:ubuntu-latest
 
     steps:
-      - name: Get the code
+       -name: Get the code
         uses: actions/chcekout@v4
 
       -name: Say hello
