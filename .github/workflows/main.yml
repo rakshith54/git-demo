@@ -1,21 +1,22 @@
-name: My first pipeline
+name: My First Pipeline
 
 on:
   push:
     branches:
       - main
+      
   workflow_dispatch:
+  
 jobs:
   test:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-       -name: Get the code
-        uses: actions/chcekout@v4
+      - name: Get the code
+        uses: actions/checkout@v4
 
-      -name: Say hello
-        run: echo "Hello, github actions"
+      - name: Say hello
+        run: echo "Hello, GitHub Actions!"
 
-      -name: show files
+      - name: Show files
         run: ls
-        
