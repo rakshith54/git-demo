@@ -1,4 +1,4 @@
 "hello git" 
 this is the changes text
 this is 4th change in text
-this is 8th change in text
+this is 7th change in text
